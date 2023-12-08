@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson four</title>
+    <style>
+        .numbers span{
+            text-decoration:underline;
+            margin: 5px;
+            padding: 5px;
+        }
+        .numbers button {
+            margin: 0 5px;
+            padding: 10px;
+        }
+        .stretch p,
+        .shadow button,
+        .number button {
+            background-color: rgb(27, 148, 27);
+            width:100px;
+            height:50px;
+            text-align: center;
+            padding: 20px 0 0 0;
+            font-size: 20px;
+            color: white;
+            transition: 2s;
+            border: 0;
+            margin: 10px;
+        }
+        .stretch p:hover{
+            width:200px;
+            height:100px;
+            cursor: pointer;
+        }
+        .shadow button{
+            padding: 0;
+            box-shadow: 5px 5px  5px rgb(180, 150, 174);
+            cursor: pointer;
+        }
+        .shadow button:active{
+            box-shadow: none;
+        }
+        .number button{
+            padding: 0;
+            margin: 0;
+            transition: 0.5s;
+        }
+        .number button:hover{
+            cursor: pointer;
+            padding: 0 20px;
+            margin: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="numbers">
+        <button>Back</button>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+        <button>Next</button>
+    </div>
+    <div class="stretch">
+        <p>Stretch</p>
+    </div>
+    <div class="shadow">
+        <button>Shadow</button>
+    </div>
+    <div class="number">
+        <button>One</button>
+        <button>Two</button>
+        <button>Three</button>
+    </div>
+</body>
+</html>
