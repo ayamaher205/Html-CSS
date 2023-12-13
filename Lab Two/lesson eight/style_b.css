@@ -1,0 +1,9 @@
+p{
+    margin: 0;
+    display: inline-block;
+    width: 600px;
+    vertical-align: middle;
+}
+input{
+    vertical-align: middle;
+}

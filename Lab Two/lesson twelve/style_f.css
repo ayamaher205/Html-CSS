@@ -1,0 +1,10 @@
+.container{
+    width:400px;
+    background-color: white;
+    color: black;
+}
+.container img {
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+}

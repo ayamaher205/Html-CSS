@@ -1,0 +1,9 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    column-gap: 20px;
+    row-gap: 10px;
+}
+.container div{
+    background-color: hsl(350.8, 71.1%, 83.7%);
+}

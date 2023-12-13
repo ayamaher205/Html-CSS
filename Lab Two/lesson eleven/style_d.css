@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    height: 50px;
+}
+.container div{
+    background-color: hsl(350.8, 71.1%, 83.7%);
+}

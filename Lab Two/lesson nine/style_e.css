@@ -1,0 +1,32 @@
+div{
+    width: 400px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 20px #817e7e;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    vertical-align:middle;
+    display: inline;
+}
+span{
+    color: #464545;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+button{
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(29, 155, 240);
+    display: inline;
+    vertical-align: middle;
+    margin-left:  80px;
+    font-weight: bold;
+}

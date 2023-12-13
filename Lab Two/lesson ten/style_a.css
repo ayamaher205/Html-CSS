@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+.container div:first-of-type{
+    background-color: hsl(197, 45.1%, 80%);
+}
+.container div:last-child{
+    background-color:hsl(350.8, 71.1%, 83.7%) ;
+}

@@ -1,0 +1,15 @@
+.container{
+    height: 100px;
+    display: flex;
+}
+.container div:first-of-type{
+    flex-basis: 100px;
+    display: flex;
+    background-color: hsl(197, 45.1%, 80%);
+    align-items: center;
+    justify-content: center;
+}
+.container div:last-child{
+    flex-basis: 200px;
+    background-color:hsl(350.8, 71.1%, 83.7%) ;
+}

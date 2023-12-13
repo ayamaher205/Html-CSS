@@ -1,0 +1,19 @@
+
+div{
+    width: 320px;
+    height:180px;
+    background-color: rgb(174, 171, 171);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding:15px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    left:-10px;
+    top: -10px;
+}

@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+}
+.container div:first-of-type{
+    flex-basis: 200px;
+    background-color: hsl(197, 45.1%, 80%);
+}
+.container div:last-child{
+    flex-basis: 75px;
+    background-color:hsl(350.8, 71.1%, 83.7%) ;
+}

@@ -1,0 +1,23 @@
+.container{
+    height: 70px;
+    display: flex;
+}
+.container .nan{
+    flex-basis: 100px;
+    background-color: hsl(350.8, 71.1%, 83.7%);
+}
+.container .parent{
+    flex-basis: 200px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:hsl(197, 45.1%, 80%);
+}
+.container .parent .child{
+    display: flex;
+    justify-content: space-between;
+}
+.container .child div{
+    background-color: black;
+    color: white;
+    flex-basis: 40px;
+}
